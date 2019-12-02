@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<link rel="stylesheet" type="text/css" href="static/animate.css">
+<style>
+.blinking
+{
+    animation:blinkingText 2s 1;
+}
+@keyframes blinkingText
+{
+    0%{     color: transparent;    }
+    49%{    color: transparent; }
+    50%{    color: transparent; }
+    99%{    color:#FFFFFF;  }
+    100%{   color: #FFFFFF;    }
+}
+</style>
+ <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+
+<title>Demonstration</title>
+</head>
+<body>
+
+<body style="text-align:center; color:#FFFFFF; font:Times;">
+<div id="back"></div>
+<div id="front"></div>
+
+<span class="blinking">
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8  offset-lg-2">
+            <h3  style="font-size:70px; padding-top:400px; color:orange; "class="mt-5">Sorry you were not recognized</h3><br>
+            <h6  style="font-size:70px; padding-top:400px; "class="mt-5"> Please contact admin!! </h6>
+        </div>
+    </div>
+</div>
+</span>
+</body>
+</html>

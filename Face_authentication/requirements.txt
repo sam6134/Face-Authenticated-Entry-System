@@ -1,0 +1,5 @@
+Flask
+opencv-python
+face_recognition
+wtforms
+flask_whooshalchemy

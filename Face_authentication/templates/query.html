@@ -1,0 +1,24 @@
+{% extends "layout1.html" %}
+{% block content %}
+<form class="form-inline" method="GET" action="search">
+    <div class="form-group">
+        <input type="text" class="form-control" name="query" id="query">
+        <button type="submit" class="btn btn-danger">Search</button>
+    </div>
+</form>
+{% for post in posts %}
+<div style="width: 450px;
+            height: 95px;
+ 
+  background: rgba(255, 255, 255, 0.328);
+  
+  padding: 15px 50px 50px 30px ;
+  margin: 20px;">
+
+<!-- box-shadow: 5px 5px 5px black; -->
+            <h3><a class="article-title" style="font-family:Arial, Helvetica, sans-serif;  color:black ;font-size:xlarge; margin-top: 1px;" >{{ post.name }}</a></h3>
+            <h5 style="color: rgb(13, 109, 199); font-size: medium;"> Time Entered: {{ post.date_posted.strftime('%d %b, %-I:%M %p') }}</h5>
+          </div>
+{% endfor %}
+
+{% endblock content %}
