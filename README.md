@@ -1,5 +1,5 @@
 # Face Authenticated Entry System
-A Face Authentication Portal that uses a deep net network to recoginize and label faces using video stream from webcam.
+A Face Authentication Portal that uses deep net implemented using face recogination module and harcasscode classifier to recoginize and label faces using video stream from webcam.
 
 The Portal also allows a admin to login and check the entries that have occured during the day.The search page also has a search-bar widget to get names for particular name. It also has option to get entries in downloadable excel format.
 
